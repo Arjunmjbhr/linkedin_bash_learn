@@ -47,7 +47,6 @@ list.txt
 
 * Redirection  
  Symbol           Function
-
- >                Output redirection (truncate)  
- >>               output redirection (append)  
+ '>'                Output redirection (truncate)  
+ '>>'               output redirection (append)  
  
