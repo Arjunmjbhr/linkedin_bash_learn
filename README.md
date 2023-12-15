@@ -35,39 +35,4 @@ Creating a Linux VM or PC
 * Bash is primarily used on Linux Systems, but available on MacOS and Windows Systems. 
 * I recommended you use a Linux System, Vm, or Cloud instance to learn bash. 
 * The included version of bash on MacOs is Extremely outdated and may be removed in future. 
-* To run Bash on windows, Use Git bash or WSL(or Linux VM)
-
-# Pipes and Redirections
-
-pipes send the output of one process to another.
-
-* Pipes send the output of one process to another 
-
-* ls | wc -l
-
-* Redirection send streams (standard input, output and error) to or from files. 
-
-* ls > list.txt
-
-# Redirection
-
-Stream          Name                                                       Content 
-0           std input (stdin)                                         keyboard or other input
-1           std output (stdout)                                       Regular Output
-2           Standard Error(stderr)                                    Output Marked as Error
-
-
-$ cat lorem.txt | wc
-      1      69     446
-$ ls > list.txt
-$ cat list.txt 
-README.md
-list.txt
-lorem.txt
-lorem_1000_words.txt
- 
-
-Symbol              Function
->                   Output Redirection (truncate)
->>                  Output Redirections (append)
-
+* To run Bash on windows, Use Git bash or WSL(or Linux VM).

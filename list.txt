@@ -1,4 +1,0 @@
-README.md
-list.txt
-lorem.txt
-lorem_1000_words.txt
