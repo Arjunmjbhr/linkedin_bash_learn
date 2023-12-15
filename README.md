@@ -51,17 +51,15 @@ pipes send the output of one process to another.
 
 # Redirection
 
-|Stream     |Name|                                                    |Content|
-_-----------|----|----------------------------------------------------|-------| 
-0           std input (stdin)                                         keyboard or other input \n
-1           std output (stdout)                                       Regular Output \n
-2           Standard Error(stderr)                                    Output Marked as Error \n 
+Stream          Name                                                       Content 
+0           std input (stdin)                                         keyboard or other input
+1           std output (stdout)                                       Regular Output
+2           Standard Error(stderr)                                    Output Marked as Error
 
 
 $ cat lorem.txt | wc
       1      69     446
 $ ls > list.txt
-
 $ cat list.txt 
 README.md
 list.txt
