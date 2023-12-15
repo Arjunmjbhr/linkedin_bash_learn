@@ -29,3 +29,25 @@ Pipes and Redirection
 
 * Redirection send stream (standard input, output, error) to or from files.  
  $ ls > list.txt  
+
+* Redirection
+
+Stream                     Name           Content  
+0                        Stdin             Keyboard or other input  
+1                        Stdout            Regular Output  
+2                        Stderr            Output marked as 'error'.  
+
+$ ls > list.txt  
+$ cat list.txt
+Chapter1-pipes_and_redirections.MD  
+INDEX.md  
+README.md  
+demo.txt  
+list.txt  
+
+* Redirection  
+ Symbol           Function
+
+ >                Output redirection (truncate)  
+ >>               output redirection (append)  
+ 
