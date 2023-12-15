@@ -22,4 +22,10 @@ In conclusion, Bash stands as a cornerstone in the Unix-like operating system la
 * $ cat demo.txt | wc  
    12     380    2639
 
-*  
+Pipes and Redirection
+
+* pipes send the output of one process to another  
+ $ ls | wc -l
+
+* Redirection send stream (standard input, output, error) to or from files.  
+ $ ls > list.txt  
