@@ -41,3 +41,33 @@ Creating a Linux VM or PC
 
 pipes send the output of one process to another.
 
+* Pipes send the output of one process to another 
+
+* ls | wc -l
+
+* Redirection send streams (standard input, output and error) to or from files. 
+
+* ls > list.txt
+
+# Redirection
+
+Stream          Name                                                       Content 
+0           std input (stdin)                                         keyboard or other input
+1           std output (stdout)                                       Regular Output
+2           Standard Error(stderr)                                    Output Marked as Error
+
+
+devserver@devops:~/devops_learn/bash_scripting$ cat lorem.txt | wc
+      1      69     446
+devserver@devops:~/devops_learn/bash_scripting$ ls > list.txt
+devserver@devops:~/devops_learn/bash_scripting$ cat list.txt 
+README.md
+list.txt
+lorem.txt
+lorem_1000_words.txt
+devserver@devops:~/devops_learn/bash_scripting$ 
+
+Symbol              Function
+>                   Output Redirection (truncate)
+>>                  Output Redirections (append)
+
