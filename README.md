@@ -51,7 +51,8 @@ pipes send the output of one process to another.
 
 # Redirection
 
-Stream          Name                                                       Content 
+|Stream     |Name|                                                    |Content|
+_-----------|----|----------------------------------------------------|-------| 
 0           std input (stdin)                                         keyboard or other input \n
 1           std output (stdout)                                       Regular Output \n
 2           Standard Error(stderr)                                    Output Marked as Error \n 
