@@ -46,7 +46,6 @@ demo.txt
 list.txt  
 
 * Redirection  
- Symbol           Function
+ Symbol           Function  
  '>'                Output redirection (truncate)  
  '>>'               output redirection (append)  
- 
