@@ -46,6 +46,14 @@ demo.txt
 list.txt  
 
 * Redirection  
- Symbol           Function  
  '>'                Output redirection (truncate)  
  '>>'               output redirection (append)  
+
+$ ls /notreal  
+ls: cannot access '/notreal': No such file or directory  
+
+$ ls /notreal>output.txt 2>error.txt  
+$ cat output.txt  
+  
+$ cat error.txt
+ls /notreal>output.txt 2>error.txt
