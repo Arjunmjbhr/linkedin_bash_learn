@@ -19,7 +19,7 @@ In conclusion, Bash stands as a cornerstone in the Unix-like operating system la
 
 * $ cat demo.txt | less
 
-* $ cat demo.txt | wc
-     12     380    2639
+* $ cat demo.txt | wc  
+   12     380    2639
 
-* 
+*  
