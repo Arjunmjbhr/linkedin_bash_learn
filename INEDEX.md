@@ -1,4 +1,4 @@
-# TOPICS 
+# Topics
 
 * Pipes and Redirection
 * bash built-ins commands
@@ -9,16 +9,19 @@
 * Command Substitution
 * Arithmetic Expansion
 
-# Programming with Bash
+ Programming-with-bash
 
 * Understanding Bash script Syntax
 * Displaying text with "echo"
-* Working with Variables 
+* Working with variables
 * Working with Numbers
-* comparing values with test 
+* comparing values with test
 * Comparing values with extended test
 * Formatting and styling text output
 * Formatting output with printf
 * Working with arrays
-* Challenge: Make script that generates a system report 
+* Challenge: Make script that generates a system report
 
+Bash control structures
+
+* 
