@@ -47,7 +47,9 @@ list.txt
 
 * Redirection  
  '>'                Output redirection (truncate)  
- '>>'               output redirection (append)  
+ '>>'               Output redirection (append)  
+ '<'                Input redirection  
+ '<<'               Here Document
 
 $ ls /notreal  
 ls: cannot access '/notreal': No such file or directory  
@@ -57,3 +59,43 @@ $ cat output.txt
   
 $ cat error.txt
 ls /notreal>output.txt 2>error.txt
+
+$ cat < list.txt  
+Chapter1-pipes_and_redirections.MD  
+INDEX.md  
+README.md  
+demo.txt  
+list.txt  
+
+
+$ cat << EndOfText  
+> this is a  
+> multiline  
+> text string  
+> EndOfText  
+this is a  
+multiline  
+text string  
+
+
+# Commands and built-ins
+
+* many of the programs we use in bash are commands  
+   - Separate software that does not depend on bash  
+* Bash includes built-in commands as well  
+   - part of bash itself
+* Some bash built-ins have the same name as other commands  
+
+Try the commands below for learning.  
+
+$ echo hello there  
+$ printf hello  
+$ command echo hello  
+$ builtin echo hello  
+$ command -V df  
+$ command -V echo  
+$ enable -n echo  
+$ command -V echo  
+$ enable -n  
+$ enable echo  
+$ help echo  
