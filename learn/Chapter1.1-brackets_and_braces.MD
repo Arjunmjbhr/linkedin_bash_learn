@@ -55,4 +55,22 @@ $ echo ${greeting//e/_}
 $ echo ${greeting/e/_}  
 $ echo $greeting:4:3  
 
-## Command Substitution
+## Command Substitution  
+
+command substitution puts the output of one command inside another older representations: `...`  
+
+* Example Commands Are:  
+
+$ uname -r
+$ echo "the kernel is $(uname -r)."  
+$ echo "The Python version is $(python3 -V)."  
+$ echo "Result: $(python3 -c 'print("hello from python!")' | tr [a-z] [A-Z])"  
+
+## Arithmetic expansion
+
+Arithmetic expansion does calculations. older representation: $[...]
+
+$ echo $((2+2))  
+$ echo $((4-2))  
+$ echo $((4*5))  
+$ echo $((4/5))  

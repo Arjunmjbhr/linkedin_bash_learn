@@ -39,8 +39,8 @@ Stream                     Name           Content
 
 ---
 
-$ ls > list.txt
-$ cat list.txt
+$ ls > list.txt  
+$ cat list.txt  
 Chapter1-pipes_and_redirections.MD  
 INDEX.md  
 README.md  

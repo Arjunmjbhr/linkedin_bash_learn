@@ -44,3 +44,5 @@ Bash in Real World
 
 * Troubleshooting
 * Ensuring script portability
+
+## Open the learn folder for my notes  
