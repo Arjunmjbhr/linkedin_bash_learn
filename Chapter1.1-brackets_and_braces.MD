@@ -20,3 +20,27 @@ $((...)) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 $ echo ~  
 $ whoami  
 $ echo ~-
+
+# Brace Expansions
+
+{a,b,c}  {x..y..z}  
+Brace expansions creates sets or ranges.  
+
+* try these commands to learn  
+$ echo /tmp/{one,two,three}/file.txt  
+$ echo c{a,o,u}t  
+$ echo /tmp/{1..3}/file.txt  
+$ echo {00..100}  
+$ echo {a..z}  
+$ echo {Z..A}  
+$ echo {1..30..3}  
+$ echo {a..z..2}  
+$ touch file_{01..12}{a..d}  
+$ ls  
+$ rm file_*  
+$ echo {cat,dog,fox}_{1..5}  
+$ head -n1 {dir1,dir2,dir3}/demo.txt
+
+# Parameter Expansion  
+ 
+
