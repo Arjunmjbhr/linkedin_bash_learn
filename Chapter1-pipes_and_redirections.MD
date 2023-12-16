@@ -67,7 +67,6 @@ README.md
 demo.txt  
 list.txt  
 
-
 $ cat << EndOfText  
 > this is a  
 > multiline  
@@ -77,13 +76,12 @@ this is a
 multiline  
 text string  
 
-
 # Commands and built-ins
 
 * many of the programs we use in bash are commands  
-   - Separate software that does not depend on bash  
+* Separate software that does not depend on bash  
 * Bash includes built-in commands as well  
-   - part of bash itself
+* part of bash itself
 * Some bash built-ins have the same name as other commands  
 
 Try the commands below for learning.  
@@ -98,4 +96,6 @@ $ enable -n echo
 $ command -V echo  
 $ enable -n  
 $ enable echo  
-$ help echo  
+$ help echo
+
+
