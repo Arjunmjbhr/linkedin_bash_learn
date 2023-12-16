@@ -22,7 +22,7 @@ In conclusion, Bash stands as a cornerstone in the Unix-like operating system la
 * $ cat demo.txt | wc  
    12     380    2639
 
-Pipes and Redirection
+## Pipes and Redirection
 
 * pipes send the output of one process to another  
  $ ls | wc -l
@@ -30,14 +30,16 @@ Pipes and Redirection
 * Redirection send stream (standard input, output, error) to or from files.  
  $ ls > list.txt  
 
-* Redirection
+## Redirection
 
 Stream                     Name           Content  
 0                        Stdin             Keyboard or other input  
 1                        Stdout            Regular Output  
 2                        Stderr            Output marked as 'error'.  
 
-$ ls > list.txt  
+---
+
+$ ls > list.txt
 $ cat list.txt
 Chapter1-pipes_and_redirections.MD  
 INDEX.md  
@@ -45,11 +47,14 @@ README.md
 demo.txt  
 list.txt  
 
-* Redirection  
+---
+
  '>'                Output redirection (truncate)  
  '>>'               Output redirection (append)  
  '<'                Input redirection  
- '<<'               Here Document
+ '<<'               Here Document  
+
+ ---
 
 $ ls /notreal  
 ls: cannot access '/notreal': No such file or directory  
@@ -76,7 +81,7 @@ this is a
 multiline  
 text string  
 
-# Commands and built-ins
+## Commands and built-ins
 
 * many of the programs we use in bash are commands  
 * Separate software that does not depend on bash  
@@ -96,6 +101,4 @@ $ enable -n echo
 $ command -V echo  
 $ enable -n  
 $ enable echo  
-$ help echo
-
-
+$ help echo  

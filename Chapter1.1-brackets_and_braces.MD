@@ -6,7 +6,7 @@
 
 bash uses these characters differently than other languages.
 
-# bash Expansions and Substitutions.  
+## bash Expansions and Substitutions  
 
 Representation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         Name  
 ~      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           Tilde expansion  
@@ -21,7 +21,7 @@ $ echo ~
 $ whoami  
 $ echo ~-
 
-# Brace Expansions
+## Brace Expansions
 
 {a,b,c}  {x..y..z}  
 Brace expansions creates sets or ranges.  
@@ -41,6 +41,18 @@ $ rm file_*
 $ echo {cat,dog,fox}_{1..5}  
 $ head -n1 {dir1,dir2,dir3}/demo.txt
 
-# Parameter Expansion  
- 
+## Parameter Expansion  
 
+${...}  
+
+Parameter expansion retrieves and transforms stored values.  
+
+$ greeting="hello there!"  
+$ echo ${greeting:6}
+$ echo ${greeting:6:3}
+$ echo ${greeting/there/everybody}  
+$ echo ${greeting//e/_}  
+$ echo ${greeting/e/_}  
+$ echo $greeting:4:3  
+
+## Command Substitution
