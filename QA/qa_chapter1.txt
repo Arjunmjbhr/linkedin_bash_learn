@@ -1,0 +1,154 @@
+QA CHAPTER 1
+------------------------------------------------------------------------------------------------------------------
+1) Expansions and substitutions allow you to _____.
+
+
+* make our program larger
+* output information to the screen
+* tell Bash to generate or calculate a value that may not be known before the script runs
+        Correct: The code you write expands or is substituted into a value to be used in the script.
+* replace the contents of another program with ours.
+
+
+
+2) Which of these describes brace expansion?
+
+
+* performs mathematical operations and returns the result
+* generates a pattern or range of numbers or letters
+        Correct: Brace expansion is used to create alphanumeric sequences, and to substitute values from a list in a script.
+* returns part or all of a stored value
+* runs a specified command and returns the result
+
+
+3) you use command substitution to _____.
+
+* run a command or command pipeline, and then return the output of that to Bash, as a string of text or as a variable
+        Correct:Command substitution is used to get values from other programs into our program.
+
+* to make sure you always run built-in versions of tools, rather than their command version
+* to take over another program's operation
+* to replace an existing command with our script instead
+
+
+4) Which of these describes parameter expansion?
+
+
+* runs a specified command and returns the result
+* returns part or all of a stored value
+        Correct: Retrieving a full or partial value from a parameter allows us to work with variables.
+* performs mathematical operations and returns the result
+* generates a pattern or range of numbers or letters
+
+5) echo {1..20..2} is an example of _____.
+
+* arithmetic expansion
+* parameter expansion
+* brace expansion
+                Correct: This will result in the sequence "1 3 5 7 9 11 13 15 17 19".
+* command substitution
+
+6) To use the command version of echo instead of the builtin version, you would write _____.
+* command echo
+        Correct
+* echo
+* Bash echo
+* builtin echo
+
+7) A Bash builtin is _____.
+
+* a command that's part of Bash, which you can rely on being present wherever Bash is running
+        Correct: Bash builtins provide us a platform of standard commands you can be sure will be available.
+
+* a computer that has Bash pre-installed, because it has Bash built in.
+* an optional loadable module that provides additional functionality in Bash
+* what you call a Bash script when it can be executed like a regular program
+
+8) The symbols [ ] represent _____.
+
+* braces
+* quotes
+* parentheses
+* brackets
+        Correct: While they're sometimes called 'square brackets', the name is kind of redundant. But, it still gets used.
+
+9) Which of these are braces?
+
+* ()
+* $$
+* []
+* {}
+        Correct: While they're sometimes called 'curly braces', the name is kind of redundant. But, it still gets used.
+
+10) Bash stands for _____.
+* Basic Analog Shell
+* Bourne Again Shell
+        Correct: Bash takes its name from the earlier Bourne Shell, which it extends.
+* Behold! Another Shell!
+* Boring, Available Shell
+
+11) Bash is a(n) _____.
+* terminal
+* operating system
+* shell
+        Correct: Bash is a shell, and the commands it provides can be used either interactively at the command line, or composed into scripts, which can be run like regular programs.
+* IDE
+
+12) The redirection operation mycmd 2>myfile sends _____.
+
+* information from the standard error (stderr) when running myfile to a command called mycmd
+
+* reads information from myfile into the standard input (stdin) of the command mycmd
+* information from the standard error (stderr) when running mycmd to a file called myfile
+        Correct: When using redirection, '2' refers to standard error, and '1' refers to standard output.
+* information from the standard output (stdout) when running mycmd to a file called myfile
+
+
+13) A pipe sends the output of one command _____.
+
+* as input to the next command
+        Correct: Pipes are useful for building compound commands.
+* to the standard error (stderr)
+* to Bash
+* to the standard output (stdout)
+
+14) echo ${myvar:3:7} is an example of _____.
+
+* parameter expansion
+        Correct: This example will return characters from the string 'myvar', starting with the 3rd character and running for 7 after that.
+* command substitution
+* arithmetic expansion
+* brace expansion
+
+15) echo $(uname -r) is an example of _____.
+
+* parameter expansion
+* arithmetic expansion
+* brace expansion
+* command substitution
+        Correct: This allows us to use output from the 'uname' command as a value in our script.
+
+
+16) Which of these describes command substitution?
+
+* generates a pattern or range of numbers or letters
+* performs mathematical operations and returns the result
+* returns part or all of a stored value
+* runs a specified command and returns the result
+        Correct: The result of an external command can then be used as a value in the script.
+
+17) $(( $a + $b)) is an example of _____.
+
+* brace expansion
+* command substitution
+* parameter expansion
+* arithmetic expansion
+        Correct: This will evaluate the expression and return the result.
+
+18) Which of these describes arithmetic expansion?
+
+* runs a specified command and returns the result
+* generates a pattern or range of numbers or letters
+* returns part or all of a stored value
+* performs mathematical operations and returns the result
+        Correct: Arithmetic expansion returns a calculated value.
