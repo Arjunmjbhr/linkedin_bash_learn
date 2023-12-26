@@ -74,3 +74,5 @@ $ echo $((2+2))
 $ echo $((4-2))  
 $ echo $((4*5))  
 $ echo $((4/5))  
+
+### read the QA and prepare for exams /QA/qa_chapter1.txt
